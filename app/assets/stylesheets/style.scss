@@ -1,0 +1,11 @@
+section {
+  font-family: $lucida-grande;
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { 
+    img {
+      height: 400px;
+      width: 500px;
+    }
+    @include span-columns(6); }
+}
