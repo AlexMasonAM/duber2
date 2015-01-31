@@ -1,0 +1,23 @@
+<h1>Driver's Login</h1>
+
+<table>
+
+  <thead>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Hourly Rate</th>
+    <th>Clocked In</th>
+  </thead>
+
+  <tbody>
+    <% @drivers.each do |i| %>
+      <tr>
+        <td><%= i.name.downcase %></td>
+        <td><%= i.age %></td>
+        <td><%= i.hourly_rate %></td>
+        <td><%= i.clocked_in %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
