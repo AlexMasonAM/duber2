@@ -38,11 +38,11 @@ Drivers = Driver.create(
       clocked_in: false
       },
     { 
-      name: "Mack Ten"
+      name: "Mack Ten",
       age: 30, 
       hourly_rate: 14.25,
       birthdate: DateTime.strptime('07/24/1984', '%m/%d/%Y'),
       clocked_in: true
-      },
+      }
   ]
 )
