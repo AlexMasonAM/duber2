@@ -1,0 +1,11 @@
+<h1>List of owners</h1>
+
+<ul>
+<% @owners.each do |owner| %>
+  <li>
+    <%= owner.name %> - <%= owner.address %> -
+    <%= link_to "Details", owner_path(owner) %>
+  </li>
+
+<% end %>
+</ul>
